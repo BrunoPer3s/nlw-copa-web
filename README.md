@@ -50,3 +50,7 @@ Inicie o servidor
 
 ![image](https://github.com/BrunoPer3s/nlw-copa-web/blob/main/assets/app-tablet-img.png) ![image](https://github.com/BrunoPer3s/nlw-copa-web/blob/main/assets/app-mobile-img.png)
 
+## 🔖 Layout
+
+Visualize o layout do projeto por meio [desse link](https://www.figma.com/file/GXHI2fST5PSNeSWGInYbAN/Bol%C3%A3o-da-Copa-(Community)). Lembrando que você irá precisar ter uma conta no [Figma](http://figma.com/).
+
