@@ -1,6 +1,7 @@
-# Nlw Copa <Web/>
+# Nlw Copa - Front-end Web
 
 Front-end Web Responsivo desenvolvido na Nlw Copa, evento promovido pela @rocketseat.
+OBS: O Projeto só irá reenderizar caso o Server ( backend ) esteja aberto e rodando. Pois os dados estão sendo requisitados via SSR.
 
 ![image](https://github.com/BrunoPer3s/nlw-copa-web/blob/main/assets/app-img.png)
 
@@ -13,13 +14,11 @@ Front-end Web Responsivo desenvolvido na Nlw Copa, evento promovido pela @rocket
 - [Axios](https://github.com/axios/axios)
 
 
-## Funcionalidades
+## :wrench: Funcionalidades
 
 - Criar um Bolão
 
-
-
-## Rodando localmente
+## :electric_plug: Rodando localmente
 
 Clone o projeto
 
@@ -46,7 +45,7 @@ Inicie o servidor
 ```
 
 
-## Screenshots
+## :camera: Screenshots
 
 ![image](https://github.com/BrunoPer3s/nlw-copa-web/blob/main/assets/app-tablet-img.png) ![image](https://github.com/BrunoPer3s/nlw-copa-web/blob/main/assets/app-mobile-img.png)
 
