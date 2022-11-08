@@ -1,10 +1,15 @@
+import { FormEvent, useState } from 'react'
 import Image from 'next/image'
+import { CheckCircle } from 'phosphor-react'
+
+import { api } from '../lib/axios'
+
 import logoImg from '../assets/logo-img.svg'
 import avatarImg from '../assets/avatar-img.png'
+import avatarImg2 from '../assets/avatar-img2.png'
+import avatarImg3 from '../assets/avatar-img3.png'
+import avatarImg4 from '../assets/avatar-img4.png'
 import phoneImg from '../assets/phone-img.png'
-import { CheckCircle } from 'phosphor-react'
-import { api } from '../lib/axios'
-import { ChangeEvent, FormEvent, useEffect, useState } from 'react'
 
 interface HomeProps {
   poolsCount: number
@@ -44,9 +49,9 @@ export default function Home({ poolsCount, guessesCount, usersCount }: HomeProps
         <div className='flex items-center justify-around tablet:mb-[40px]'>
           <div className='flex'>
             <Image src={avatarImg} alt="avatar" />
-            <Image className='ml-[-25px]' src={avatarImg} alt="avatar" />
-            <Image className='ml-[-25px] hidden tablet:block' src={avatarImg} alt="avatar" />
-            <Image className='ml-[-25px] hidden tablet:block' src={avatarImg} alt="avatar" />
+            <Image className='ml-[-25px]' src={avatarImg2} alt="avatar" />
+            <Image className='ml-[-25px] hidden tablet:block' src={avatarImg3} alt="avatar" />
+            <Image className='ml-[-25px] hidden tablet:block' src={avatarImg4} alt="avatar" />
           </div>
           <div>
             <strong className='text-gray-100 tablet:text-xl'>
